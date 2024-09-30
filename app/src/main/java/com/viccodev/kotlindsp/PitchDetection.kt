@@ -8,7 +8,7 @@ import java.io.File
  * Victor Manuel Pichardo Infante
  * Diana Vanessa Ortíz Martínez
  *
- * Este código utiliza para la detección automática de tonos músicales.
+ * Este código se utiliza para la detección automática de tonos músicales.
  */
 
 fun main()

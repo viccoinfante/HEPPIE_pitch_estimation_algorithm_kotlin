@@ -7,7 +7,7 @@ import kotlin.math.sin
  * Victor Manuel Pichardo Infante
  * Diana Vanessa Ortíz Martínez
  *
- * Este código utiliza para la detección automática de tonos músicales.
+ * Este código se utiliza para la detección automática de tonos músicales.
  */
 
 // Definición de la función FIR Filter
