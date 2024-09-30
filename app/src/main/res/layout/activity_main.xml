@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_shape"
+    tools:context=".MainActivity">
+
+    <!-- Botón para seleccionar el archivo WAV -->
+
+    <!-- Botón para calcular la frecuencia -->
+
+    <!-- TextView para mostrar el archivo seleccionado -->
+
+    <!-- Cuadro estilizado para mostrar la frecuencia fundamental -->
+
+    <Button
+        android:id="@+id/selectWavButton"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_background"
+        android:text="Buscar archivo WAV"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/calculateFreqButton"
+        android:layout_width="208dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/button_background"
+        android:text="Calcular frecuencia"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/selectWavButton" />
+
+    <TextView
+        android:id="@+id/selectedFilePath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Archivo seleccionado: Ninguno"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calculateFreqButton" />
+
+    <TextView
+        android:id="@+id/frequencyTextView"
+        android:layout_width="308dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/frequency_box_background"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Frecuencia fundamental: N/A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/selectedFilePath" />
+</androidx.constraintlayout.widget.ConstraintLayout>

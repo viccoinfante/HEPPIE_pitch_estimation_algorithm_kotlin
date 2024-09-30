@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sombra -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#B0BEC5" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <!-- Gradiente del botón -->
+    <item android:top="3dp" android:left="3dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#6A1B9A"
+                android:endColor="#8E24AA"
+                android:angle="45" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</layer-list>
